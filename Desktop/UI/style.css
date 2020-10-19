@@ -1,0 +1,34 @@
+h1, h2 {
+    color: green;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.main-text-shadow {
+    text-shadow: 5px 5px gray;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("bg.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-size {
+    font-size: 48px;
+}
